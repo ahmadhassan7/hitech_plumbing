@@ -5,7 +5,7 @@ import Link from 'next/link';
 import FloatingScrollToTop from '@/components/FloatingScrollToTop';
 
 export default function TermsOfServicePage() {
-  const lastUpdated = 'January 15, 2025';
+  const lastUpdated = 'August 15, 2025';
 
   return (
     <div className="min-h-screen bg-white">
