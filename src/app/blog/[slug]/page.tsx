@@ -382,8 +382,8 @@ Don't wait for a cold snap to discover vulnerable areas in your plumbing system.
 
 export default function BlogPostPage() {
   const params = useParams();
-  const [post, setPost] = useState<any>(null);
-  const [relatedPosts, setRelatedPosts] = useState<any[]>([]);
+  const [post, setPost] = useState<typeof blogPosts[0] | null>(null);
+  const [relatedPosts, setRelatedPosts] = useState<typeof blogPosts>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -420,7 +420,7 @@ export default function BlogPostPage() {
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Article Not Found</h1>
-          <p className="text-gray-600 mb-8">The article you're looking for doesn't exist.</p>
+          <p className="text-gray-600 mb-8">The article you&apos;re looking for doesn&apos;t exist.</p>
           <Link href="/blog" className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors">
             Back to Blog
           </Link>
@@ -586,7 +586,7 @@ export default function BlogPostPage() {
               <div className="bg-gradient-to-r from-primary to-accent text-white p-6 rounded-2xl mb-8">
                 <h3 className="text-xl font-bold mb-4">Need Professional Help?</h3>
                 <p className="mb-6 opacity-90">
-                  Don't tackle complex plumbing issues alone. Our experts are here to help 24/7.
+                  Don&apos;t tackle complex plumbing issues alone. Our experts are here to help 24/7.
                 </p>
                 <Link 
                   href="/contact"
@@ -645,7 +645,7 @@ export default function BlogPostPage() {
                     <Link href={`/blog/${relatedPost.slug}`}>
                       <motion.div 
                         className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 cursor-pointer group h-full"
-                        whileHover={{ y: -8, shadow: "0 20px 40px -12px rgba(0, 0, 0, 0.15)" }}
+                        whileHover={{ y: -8 }}
                         transition={{ duration: 0.3 }}
                       >
                         <div className="relative overflow-hidden">

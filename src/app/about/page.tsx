@@ -44,7 +44,7 @@ export default function AboutPage() {
               About <span className="text-yellow-300">HiTech</span> Plumbing
             </h1>
             <p className="text-xl lg:text-2xl opacity-95 max-w-3xl mx-auto">
-              Vancouver's trusted plumbing professionals with over 10 years of excellence in service
+              Vancouver&apos;s trusted plumbing professionals with over 10 years of excellence in service
             </p>
           </motion.div>
         </div>
@@ -72,7 +72,7 @@ export default function AboutPage() {
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Founded in Vancouver, HiTech Plumbing began with a simple mission: to provide honest, 
                 reliable plumbing services that homeowners and businesses could trust. What started as 
-                a small local business has grown into one of Vancouver's most respected plumbing companies.
+                a small local business has grown into one of Vancouver&apos;s most respected plumbing companies.
               </p>
               
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">

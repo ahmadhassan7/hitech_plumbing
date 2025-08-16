@@ -44,7 +44,7 @@ export default function CareersPage() {
               Join Our <span className="text-yellow-300">Expert</span> Team
             </h1>
             <p className="text-xl lg:text-2xl opacity-95 max-w-3xl mx-auto">
-              Build a rewarding career with Vancouver's most trusted plumbing professionals
+              Build a rewarding career with Vancouver&apos;s most trusted plumbing professionals
             </p>
           </motion.div>
         </div>
@@ -64,7 +64,7 @@ export default function CareersPage() {
               Why Choose HiTech Plumbing?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're a team of professionals who value quality work, growth, and work-life balance.
+              We&apos;re a team of professionals who value quality work, growth, and work-life balance.
             </p>
           </motion.div>
 
@@ -138,7 +138,7 @@ export default function CareersPage() {
               </h3>
               
               <p className="text-gray-600 mb-8">
-                We're always interested in connecting with talented professionals for future opportunities.
+                We&apos;re always interested in connecting with talented professionals for future opportunities.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -173,7 +173,7 @@ export default function CareersPage() {
               Ready to Join Our Team?
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Send us your resume and let's discuss how you can grow your career with HiTech Plumbing
+              Send us your resume and let&apos;s discuss how you can grow your career with HiTech Plumbing
             </p>
             <div className="w-full max-w-md mx-auto">
               <div className="flex flex-col sm:flex-row gap-4">

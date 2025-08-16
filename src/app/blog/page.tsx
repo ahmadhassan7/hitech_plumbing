@@ -143,7 +143,7 @@ export default function BlogPage() {
               Plumbing <span className="text-yellow-300">Insights</span> & Tips
             </h1>
             <p className="text-xl lg:text-2xl opacity-95 max-w-3xl mx-auto">
-              Expert advice, maintenance tips, and industry insights from Vancouver's trusted plumbing professionals.
+              Expert advice, maintenance tips, and industry insights from Vancouver&apos;s trusted plumbing professionals.
             </p>
           </motion.div>
         </div>
@@ -212,7 +212,7 @@ export default function BlogPage() {
               <Link href={`/blog/${featuredPost.slug}`}>
                 <motion.article 
                   className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 cursor-pointer group"
-                  whileHover={{ y: -5, shadow: "0 25px 50px -12px rgba(0, 0, 0, 0.15)" }}
+                  whileHover={{ y: -5 }}
                   transition={{ duration: 0.3 }}
                 >
                   <div className="grid lg:grid-cols-2 gap-0">
@@ -308,7 +308,7 @@ export default function BlogPage() {
                     <Link href={`/blog/${post.slug}`}>
                       <motion.div 
                         className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 cursor-pointer group h-full"
-                        whileHover={{ y: -8, shadow: "0 20px 40px -12px rgba(0, 0, 0, 0.15)" }}
+                        whileHover={{ y: -8 }}
                         transition={{ duration: 0.3 }}
                       >
                         <div className="relative overflow-hidden">

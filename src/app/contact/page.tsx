@@ -321,7 +321,7 @@ export default function ContactPage() {
               Emergency Plumbing Service Available
             </h3>
             <p className="text-gray-700 mb-6">
-              Burst pipe? Water leak? Gas emergency? Don't wait - call us now for immediate assistance.
+              Burst pipe? Water leak? Gas emergency? Don&apos;t wait - call us now for immediate assistance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

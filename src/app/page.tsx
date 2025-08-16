@@ -12,58 +12,8 @@ import LogoMarquee from '@/components/LogoMarquee';
 import FloatingScrollToTop from '@/components/FloatingScrollToTop';
 
 export default function Home() {
-  const services = [
-    {
-      title: 'Emergency Plumbing',
-      description: 'Quick fixes for leaks, clogs, and burst pipes. Available 24/7 for urgent repairs.',
-      href: '/plumbing',
-      price: 'From $119'
-    },
-    {
-      title: 'Gas Services',
-      description: 'Safe gas line repairs and installations by certified professionals.',
-      href: '/gas',
-      price: 'From $253'
-    },
-    {
-      title: 'Heating Systems',
-      description: 'Complete heating system installation, repair and maintenance services.',
-      href: '/heating',
-      price: 'From $303'
-    },
-    {
-      title: 'Hot Water Systems',
-      description: 'Tank and tankless water heater installation and service solutions.',
-      href: '/hot-water',
-      price: 'From $2,123'
-    }
-  ];
 
-  const features = [
-    {
-      title: '2-Year Warranty',
-      description: 'Comprehensive warranty on all installations and major repairs'
-    },
-    {
-      title: '24/7 Emergency',
-      description: 'Round-the-clock emergency services for urgent plumbing issues'
-    },
-    {
-      title: 'Transparent Pricing',
-      description: 'Clear pricing with no hidden fees - just a $169 call-out fee'
-    },
-    {
-      title: 'Licensed Professionals',
-      description: 'Skilled technicians with years of experience and proper certification'
-    }
-  ];
 
-  const stats = [
-    { number: '5000+', label: 'Happy Customers' },
-    { number: '10+', label: 'Years Experience' },
-    { number: '24/7', label: 'Emergency Service' },
-    { number: '100%', label: 'Satisfaction Rate' }
-  ];
 
   return (
     <div className="min-h-screen">

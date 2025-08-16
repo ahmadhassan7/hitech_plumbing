@@ -321,14 +321,7 @@ export default function PricingWarrantyPage() {
                             <div className="flex-1">
                               <h3 className="font-semibold text-gray-900 mb-1">
                                 {item.service}
-                                {item.note && <span className="text-primary ml-1">{item.note}</span>}
                               </h3>
-                              {item.description && (
-                                <p className="text-sm text-gray-600 mb-2">{item.description}</p>
-                              )}
-                              {item.warranty && (
-                                <p className="text-sm text-primary font-medium">{item.warranty}</p>
-                              )}
                             </div>
                             <div className="text-right">
                               <div className="text-2xl font-bold text-primary">

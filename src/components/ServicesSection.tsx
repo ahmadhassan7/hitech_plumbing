@@ -56,7 +56,7 @@ export default function ServicesSection() {
               Be confident in your plumbing with
             </h2>
             <h3 className="text-4xl md:text-5xl font-bold text-primary mb-8">
-              HiTech Plumbing's 2 YEAR FULL GUARANTEE.
+              HiTech Plumbing&apos;s 2 YEAR FULL GUARANTEE.
             </h3>
             <div className="text-2xl font-bold text-accent">
               (604)-HI-TECH
